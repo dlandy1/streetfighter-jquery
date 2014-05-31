@@ -46,6 +46,6 @@ $(document).keydown(function(event) {
 $(document).keyup(function(event){
 	if(event.keyCode == 88) {
 			$('.ryu-cool').hide();
-			$('.ryu-ready').show();
+			$('.ryu-still').show();
 			}
 		});
