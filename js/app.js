@@ -42,9 +42,11 @@ $(document).keydown(function(event) {
    	}
    })
 $(document).keyup(function(event){
+	if(event.keyCode == 88) {
 			$('.ryu-cool').hide();
 			$('.ryu-still').show();
-			})
+			}
+		})
 			  .mousedown(function() {
 			    playHadouken(); 
 			    $('.ryu-ready').hide();
