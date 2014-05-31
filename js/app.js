@@ -26,7 +26,8 @@ $(document).ready(function() {
   .mouseup(function() {
   	$('.ryu-throwing').hide();
   	$('.ryu-cool').hide();
-    $('.ryu-ready').show();
+  	$('.ryu-still').hide();
+  	$('.ryu-ready').show();
   	$('.text').show();
   });
 });
@@ -39,8 +40,8 @@ $(document).keydown(function(event) {
    	if(event.keyCode == 88) {
    			$('.ryu-cool').show();
    			$('.ryu-ready').hide();
-   			$('.ryu-throwing').hide();
    			$('.ryu-still').hide();
+   			$('.ryu-throwing').hide();
    	}
    })
 $(document).keyup(function(event){
